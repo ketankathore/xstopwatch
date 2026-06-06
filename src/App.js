@@ -44,9 +44,8 @@ function App() {
     <div className="container">
       <h1>Stopwatch</h1>
       <div className="stopwatch">
-        <p className="time-label">Time</p>
         <div className="time-display">
-          {formatTime(seconds)}
+          Time: {formatTime(seconds)}
         </div>
         <div className="button-group">
           {!isRunning ? (
