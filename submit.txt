@@ -1,0 +1,38 @@
+XLogin Project - React Login Form Application
+
+Project Description:
+This is a simple login form interface built with React.js that validates user credentials.
+
+Features Implemented:
+1. Login form with username and password fields
+2. Form validation - both fields must be filled to enable the Submit button
+3. Correct credentials validation (username: "user", password: "password")
+4. Welcome message display upon successful login
+5. Error message display for incorrect credentials
+6. Responsive design with CSS styling
+
+File Structure:
+- public/index.html - Main HTML file
+- src/App.js - Main React component with login logic
+- src/App.css - Styling for the login form
+- src/index.js - React app entry point
+- src/index.css - Global styles
+- package.json - Project dependencies and scripts
+
+How to Run:
+1. Navigate to the project directory
+2. Install dependencies: npm install
+3. Start the development server: npm start
+4. Open http://localhost:3000 in your browser
+
+Requirements Met:
+✓ Uses React.js for the application
+✓ Form element used for login form
+✓ Label and input elements used with proper semantic HTML
+✓ Labels are "Username" and "Password" only
+✓ Submit button created using button element
+✓ Both fields must be filled to submit
+✓ Shows "Welcome, user!" for correct credentials
+✓ Shows "Invalid username or password" for incorrect credentials
+✓ Messages appear and disappear based on user interaction
+✓ Submit button is disabled when fields are empty
